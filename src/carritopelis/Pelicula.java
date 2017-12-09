@@ -20,7 +20,8 @@ public class Pelicula {
      * @param genero Cadena que almacena el género al que pertenece la película
      * @param precio Cadena que almacena el precio de venta de la película
      */
-    public Pelicula(String codigoBarras, String titulo, String actor, String genero, String precio,String peliculasExistentes) {
+    public Pelicula(String codigoBarras, String titulo, String actor, 
+                    String genero, String precio,String peliculasExistentes) {
         this.codigoBarras = codigoBarras;
         this.titulo = titulo;
         this.actor = actor;
