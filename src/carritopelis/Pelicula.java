@@ -4,23 +4,42 @@ package carritopelis;
  * @author Omar Ulises Hernández Cervantes, Oswaldo Josue Hernández Juárez
  */
 public class Pelicula {
-
+    /**
+     *  codigoBarras la instancia del codifgo de barrass.
+     */
     private String codigoBarras;
+    /**
+     *  titulo la instancia del ttulo de la pelicula.
+     */
     private String titulo;
+    /**
+     *  actor la instancia del actor de la pelicula.
+     */
     private String actor;
+    /**
+     *  titulo la instancia del genero de la pelicula.
+     */
     private String genero;
+    /**
+     *  precio la instancia del precio de la pelicula.
+     */
     private String precio;
+    /**
+     *  peliculasExistentes la instancia de cuantas pelicualas en stock.
+     */
     private String peliculasExistentes;
     /**
      *
      * @param codigoBarras que almacena del ID de la película
      * @param titulo Cadena que almacena el nombre de la película
      * @param actor Cadena que almacena el nombre del actor principal de la
-     * película
-     * @param genero Cadena que almacena el género al que pertenece la película
+     *              película
+     * @param genero Cadena que almacena el género al que pertenece 
+     *               la película
      * @param precio Cadena que almacena el precio de venta de la película
+     * @param peliculasExistentes es la cantidad de peliculas en Stock
      */
-    public Pelicula(String codigoBarras, String titulo, String actor, 
+    public Pelicula(String codigoBarras, String titulo, String actor,
                     String genero, String precio,String peliculasExistentes) {
         this.codigoBarras = codigoBarras;
         this.titulo = titulo;
@@ -29,50 +48,46 @@ public class Pelicula {
         this.precio = precio;
         this.peliculasExistentes = peliculasExistentes;
     }
-
-    public String getCodigoBarras() {
+    /**
+     * Getter.
+     * @return el codigo de barras.
+    */
+    public final String getCodigoBarras() {
         return codigoBarras;
     }
-
-    public void setCodigoBarras(String codigoBarras) {
-        this.codigoBarras = codigoBarras;
-    }
-
-    public String getTitulo() {
+    /**
+     * Getter.
+     * @return el titulo de la pelicula.
+    */
+    public final String getTitulo() {
         return titulo;
     }
-
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
-    }
-
-    public String getActor() {
+    /**
+     * Getter.
+     * @return el actor de la pelicula.
+    */
+    public final String getActor() {
         return actor;
     }
-
-    public void setActor(String actor) {
-        this.actor = actor;
-    }
-
-    public String getGenero() {
+    /**
+     * Getter.
+     * @return el genero de la pelicula.
+    */
+    public final String getGenero() {
         return genero;
     }
-
-    public void setGenero(String genero) {
-        this.genero = genero;
-    }
-
-    public String getPrecio() {
+    /**
+     * Getter.
+     * @return el precio de la pelicula.
+    */
+    public final String getPrecio() {
         return precio;
     }
-
-    public void setPrecio(String precio) {
-        this.precio = precio;
-    }
-    public String getPeliculasExistentes(){
-       return  this.peliculasExistentes;
-    }
-    public void setPeliculasExistentes(String pExitentte){
-        this.peliculasExistentes = pExitentte;
+    /**
+     * Getter.
+     * @return la peliculas en Stock.
+    */
+    public final String getPeliculasExistentes() {
+        return  this.peliculasExistentes;
     }
 }
