@@ -7,34 +7,34 @@ public class Pelicula {
     /**
      *  codigoBarras la instancia del codifgo de barrass.
      */
-    private String codigoBarras;
+    private final String codigoBarras;
     /**
      *  titulo la instancia del ttulo de la pelicula.
      */
-    private String titulo;
+    private final String titulo;
     /**
      *  actor la instancia del actor de la pelicula.
      */
-    private String actor;
+    private final String actor;
     /**
      *  titulo la instancia del genero de la pelicula.
      */
-    private String genero;
+    private final String genero;
     /**
      *  precio la instancia del precio de la pelicula.
      */
-    private String precio;
+    private final String precio;
     /**
      *  peliculasExistentes la instancia de cuantas pelicualas en stock.
      */
-    private String peliculasExistentes;
+    private final String peliculasExistentes;
     /**
      *
      * @param codigoBarras que almacena del ID de la película
      * @param titulo Cadena que almacena el nombre de la película
      * @param actor Cadena que almacena el nombre del actor principal de la
      *              película
-     * @param genero Cadena que almacena el género al que pertenece 
+     * @param genero Cadena que almacena el género al que pertenece
      *               la película
      * @param precio Cadena que almacena el precio de venta de la película
      * @param peliculasExistentes es la cantidad de peliculas en Stock
