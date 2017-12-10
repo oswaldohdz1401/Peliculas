@@ -22,7 +22,7 @@ public class CapturaDatos {
      * @return el cofigo de barras ingresado por el usuario
      * @throws pedirCodigoBarras().
      */
-    public String pedirCodigoBarras() {
+    public final String pedirCodigoBarras() {
         String codigoBarras;
         do {
             codigoBarras = JOptionPane.
@@ -46,11 +46,11 @@ public class CapturaDatos {
         return codigoBarras;
     }
     /**
-     * Mada un mensaje para ingresar el titulo de la pelicula
+     * Mada un mensaje para ingresar el titulo de la pelicula.
      * @return el titulo de barras ingresado por el usuario
      * @throws pedirTitulo().
      */
-    public String pedirTitulo() {
+    public final String pedirTitulo() {
         String tituloPelicula;
         do {
             tituloPelicula = JOptionPane.
@@ -74,7 +74,7 @@ public class CapturaDatos {
      * @return el actor ingresado por el usuario
      * @throws pedirActor().
      */
-    public String pedirActor() {
+    public final String pedirActor() {
         String actorPelicula;
         do {
             actorPelicula = JOptionPane.
@@ -99,7 +99,7 @@ public class CapturaDatos {
      * @return el genero ingresado por el usuario
      * @throws pedirGenero().
      */
-    public String pedirGenero() {
+    public final String pedirGenero() {
         String generoPelicla;
         do {
             generoPelicla = JOptionPane.
@@ -126,7 +126,7 @@ public class CapturaDatos {
      * @return el genero ingresado por el usuario
      * @throws pedirGenero().
      */
-    public String pedirPrecio() {
+    public final String pedirPrecio() {
         String precio;
         int x;
         do {
@@ -152,7 +152,7 @@ public class CapturaDatos {
      * @return cantidad de peliculas en stock, ingresaddos por el usuario
      * @throws predirPeliculasEnexistencia().
      */
-    public String predirPeliculasEnexistencia(){
+    public final String predirPeliculasEnexistencia() {
         String pExistencia;
         int p;
         do {
