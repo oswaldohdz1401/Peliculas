@@ -35,7 +35,7 @@ public class VentanaPeliculas extends javax.swing.JFrame {
         
     }
      public void conexionBD() {
-        String cadena = "jdbc:postgresql://localhost:5432/prueba";
+        String cadena = "jdbc:postgresql://localhost:5432/catalogo";
         String user = "postgres";
         String pass = "123";
 
@@ -70,7 +70,7 @@ public class VentanaPeliculas extends javax.swing.JFrame {
     }
 
     public void guardarBD(Pelicula pelicula) {
-        String cadena = "jdbc:postgresql://localhost:5432/prueba";
+        String cadena = "jdbc:postgresql://localhost:5432/catalogo";
         String user = "postgres";
         String pass = "123";
         try {
