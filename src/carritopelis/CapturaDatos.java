@@ -144,7 +144,7 @@ public class CapturaDatos {
                                   "Error",
                                   JOptionPane.WARNING_MESSAGE);
             }
-        } while (x < PRECIO_MIN || x > PRECIO_MIN);
+        } while (x < PRECIO_MIN|| x > PRECIO_MAX);
         return precio;
     }
     /**
